@@ -1,9 +1,24 @@
 <template>
-<div>this is header</div>
+  <div class="header">
+    <div class="header-left">测试</div>
+    <div class="header-input"></div>
+    <div class="header-right"></div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "HomeHeader"
+  name: 'HomeHeader'
 }
 </script>
+
+<style lang="stylus" scoped>
+  .header
+    height: .86rem
+    .header-left
+      width: 0.64rem
+      float: left
+    .header-right
+      width: 1.24rem
+      float: right
+</style>
