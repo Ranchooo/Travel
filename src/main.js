@@ -4,6 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// 全局引入重置样式
+import 'styles/reset.css'
+// 全局引入icon
+import 'styles/iconfont.css'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
